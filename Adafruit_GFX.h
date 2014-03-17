@@ -68,11 +68,11 @@ class Adafruit_GFX : public Print {
     width(void);
 
   int16_t
-    getCursorX(void);
+    getCursorX(void),
     getCursorY(void);
 
   uint8_t 
-    getRotation(void);
+    getRotation(void),
     getTextSize(void);
 
  protected:
