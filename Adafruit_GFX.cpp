@@ -441,7 +441,7 @@ void Adafruit_GFX::setTextSize(uint8_t s) {
 }
 
 // Additional method
-int8_t Adafruit_GFX::getTextSize(void) {
+uint8_t Adafruit_GFX::getTextSize(void) {
   return textsize;
 }
 
