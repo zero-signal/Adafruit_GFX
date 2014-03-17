@@ -426,8 +426,23 @@ void Adafruit_GFX::setCursor(int16_t x, int16_t y) {
   cursor_y = y;
 }
 
+// Additional method
+int16_t Adafruit_GFX::getCursorX(void) {
+  return cursor_x;
+}
+
+// Additional method
+int16_t Adafruit_GFX::getCursorY(void) {
+  return cursor_y;
+}
+
 void Adafruit_GFX::setTextSize(uint8_t s) {
   textsize = (s > 0) ? s : 1;
+}
+
+// Additional method
+int8_t Adafruit_GFX::getTextSize(void) {
+  return textsize;
 }
 
 void Adafruit_GFX::setTextColor(uint16_t c) {
